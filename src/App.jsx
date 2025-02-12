@@ -5,7 +5,7 @@ import Data from './components/Data/Data'
 const App = () => {
   return (
     <div>
-      <Counter/>
+
       <Data/>
     </div>
   )

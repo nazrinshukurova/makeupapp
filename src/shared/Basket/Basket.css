@@ -1,0 +1,9 @@
+.basket{
+display: flex;
+margin: 20px;
+}
+
+.basketBox{
+    width: fit-content;
+    height: 50px;
+}

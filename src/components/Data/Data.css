@@ -9,13 +9,43 @@ img {
   margin: 20px;
 }
 
-.products{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.productPrice{
-    padding-left: 20px;
-    font-size: 20px;
+.productPrice {
+  padding-left: 20px;
+  font-size: 20px;
+  color: red;
+  font-weight: 800;
+  font-size: 20px;
+  text-decoration: line-through;
+}
+
+.prices {
+  display: flex;
+  font-weight: 800;
+  align-items: center;
+  font-size: 25px;
+  gap: 20px;
+}
+
+.productTitle {
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.countingItems {
+  display: flex;
+  position: relative;
+}
+.countingNumber {
+  position: absolute;
+  left: 80px;
+  top: 8px;
+  font-size: 20px;
+  font-weight: 800;
 }

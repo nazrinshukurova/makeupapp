@@ -1,4 +1,4 @@
-button {
+/* button {
   width: 150px;
   height: 40px;
   background-color: green;
@@ -8,7 +8,7 @@ button {
   cursor: pointer;
   color: white;
   font-size: 17px;
-}
+} */
 .countingValue{
     font-size: 20px;
 }
