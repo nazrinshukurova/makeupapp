@@ -1,0 +1,21 @@
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.imageDiv {
+  background-color: #f9f3ff;
+  border: #e6c7d6 solid black;
+  margin: 20px;
+}
+
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productPrice{
+    padding-left: 20px;
+    font-size: 20px;
+}
