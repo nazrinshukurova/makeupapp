@@ -58,7 +58,7 @@ const Data = () => {
     const handleCountChange = (change) => {
       setCount((prevCount) => {
         const newCount = prevCount + change;
-        return newCount < 0 ? 0 : newCount;
+        return newCount < 0 ? 0 : newCount; //&Ozume-not newCount 0 dan kicik olmamalidi cunki sebetde -count gormemeliyik
       });
     };
 
@@ -87,7 +87,7 @@ const Data = () => {
         <AddToCard
           txt="RESET"
           bgColor="#353535"
-          onCountChange={() =>setCount(0) }
+          onCountChange={() => setCount(0)}
         />
 
         <div className="countingItems">
